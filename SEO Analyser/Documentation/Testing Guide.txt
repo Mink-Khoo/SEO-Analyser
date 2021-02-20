@@ -1,0 +1,16 @@
+Testing Guide for SEO Analyser Web Application
+
+======================================================
+Prerequisites :
+--------------------------
+1. Microsoft Visual Studio
+
+======================================================
+To run the Nunit Testing project for the application:
+--------------------------
+1. Navigate to <your path>\SEO Analyser Folder.
+2. Open the application solution(SEO Analyser.sln) with Visual Studio. 
+3. Expand the SEOAnalyserTest Project. 
+4. Open the AnalyserTests.cs class, you may see the test methods for the project.
+5. If Test Explorer is not visible, choose Test on the Visual Studio menu, choose Windows, and then choose Test Explorer (or press Ctrl + E, T)
+6. To run all the tests in a solution, choose the Run All icon in Test Explorer (or press Ctrl + R, V).

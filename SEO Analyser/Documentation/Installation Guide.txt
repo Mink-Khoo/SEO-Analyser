@@ -1,0 +1,20 @@
+Installation Guide for SEO Analyser Web Application
+
+======================================================
+Prerequisites :
+--------------------------
+1. Web Deploy (msdeploy.exe)
+2. IIS 7
+
+======================================================
+Installation steps :
+--------------------------
+1. Launch IIS Manager
+2. In the Connections panel, right click the "Sites" node and choose "Add Website..."
+3. In Add Website dialog box, enter "mysite" as Site name, select your Physical Path location for the website, enter host name (e.g. mysite.com) and click OK.
+3. Open File Explore and navigate to "c:\windows\system32\drivers\etc", open hosts file in notepad with administrator privileges.
+4. Paste this line at the bottom most of the hosts file and save => 127.0.0.1       mysite.com 
+5. Run Command Prompt as administrator.
+6. Navigate to the deploy package location => cd "C:\<your path>\SEO Analyser\SEO Analyser\WDP"
+7. Execute the SEO Analyser.deploy.cmd => "SEO Analyser.deploy.cmd" /Y
+8. Browse mysite.com in your browser.
