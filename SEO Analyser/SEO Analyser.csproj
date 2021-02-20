@@ -73,6 +73,7 @@
   <ItemGroup>
     <Content Include="Default.aspx" />
     <Content Include="Documentation\Installation Guide.txt" />
+    <Content Include="Documentation\Testing Guide.txt" />
     <Content Include="Documentation\User Guide.txt" />
     <Content Include="Web.config" />
   </ItemGroup>
